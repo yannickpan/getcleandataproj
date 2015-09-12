@@ -1,5 +1,5 @@
-trainsubj = read.table("D:\\UCI HAR Dataset\\train\\subject_train.txt")
-testsubj = read.table("D:\\UCI HAR Dataset\\test\\subject_test.txt")
+trainsubj = read.table("subject_train.txt")
+testsubj = read.table("subject_test.txt")
 subcol = rbind(trainsubj,testsubj)
 wholexy_sub = cbind(wholexy,subcol)
 colnames(wholexy_sub)[563]="subject"

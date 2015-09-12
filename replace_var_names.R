@@ -1,4 +1,4 @@
-features = read.delim("D:\\UCI HAR Dataset\\features.txt",header=FALSE,quote="")
+features = read.delim("features.txt",header=FALSE,quote="")
 for(i in c(1:nrow(features))){
   temp = strsplit(as.character(features[i,1])," ")[[1]][2]
   colnames(wholexy)[i] = gsub('\\(\\)','',temp)
@@ -16,3 +16,4 @@ for(i in c(1:561)){
   colnames(wholexy)[i] = gsub('Jerk','Jk',colnames(wholexy)[i])
   colnames(wholexy)[i] = gsub(',','',colnames(wholexy)[i])
 }
+print(colnames(wholexy))
