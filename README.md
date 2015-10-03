@@ -1,5 +1,5 @@
 # getcleandataproj
-# IMPORTANT EXPLANATION FOR THOSE WHO GRADE MY WORK: I forgot to revise the name of my R scripts to *run_analysis.R*. But I believe all the functions are impletemented correctly. 
+# IMPORTANT EXPLANATION FOR THOSE WHO GRADE MY WORK: I forgot to revise the name of my R scripts to *run_analysis.R*. But I believe all the functions are implemented correctly. 
 1. The functions of merge.R:
 a. it will first merge variables and labels together for training set and testing set respectively;
 b. then it will merge training and testing set together;
